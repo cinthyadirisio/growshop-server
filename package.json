@@ -1,0 +1,35 @@
+{
+  "name": "growshop-server",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinthyadirisio/growshop-server.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "javascript",
+    "mongoose",
+    "dotenv",
+    "jwt",
+    "mongodb"
+  ],
+  "author": "Cinthya Di Risio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cinthyadirisio/growshop-server/issues"
+  },
+  "homepage": "https://github.com/cinthyadirisio/growshop-server#readme",
+  "description": "Backend para e-commerce de un growshop",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.3"
+  }
+}
